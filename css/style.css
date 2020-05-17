@@ -1,0 +1,77 @@
+*{
+  /*esta es la seccion del cuadro
+  del logueo*/
+  margin: "0";
+  padding: "0";
+  box-sizing: border-box;
+}
+h3{
+ /*esta sección es la del titulo dentro
+ del cuadro del logueo.*/
+  font-family: 'Arial';
+  font-size: 18pt;
+  letter-spacing: 1px;
+  width: 90%;
+  background: #85C0E2;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+#container{
+  /*esta es la seccion del cuadro del Logueo*/
+  background: #000066;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#container form{
+/*codigo del form*/
+  background:#7985A5;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+#container form img{
+  /*en esta parte manejamos
+la imagen del form*/
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+}
+#container form input{
+
+    /*el usuario y pass*/
+    width: 90%;
+    padding: 5px;
+    font-size: 16pt;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#container form input[type="submit"]{
+/*manejamos el color del boton de enviar*/
+  background: #85C0E2;
+  padding: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+.alert{
+  font-family: "Arial";
+  font-size: 16px;
+  text-align: center;
+
+}
